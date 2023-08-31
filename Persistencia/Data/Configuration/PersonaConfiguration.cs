@@ -37,7 +37,7 @@ public class PersonaConfiguration : IEntityTypeConfiguration<Persona>
         .WithMany(p => p.Personas)
         .HasForeignKey(p => p.IdTipoPersonaFK);
 
-         builder
+        builder
             .HasMany(p => p.Salones)
             .WithMany(p => p.Personas)
             .UsingEntity<TrainerSalon>(

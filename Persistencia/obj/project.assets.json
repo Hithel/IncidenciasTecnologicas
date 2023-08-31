@@ -5216,19 +5216,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
+    "C:\\Users\\APT01-039\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ADMIN\\Documents\\IncidenciasTecnologicas\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "c:\\Users\\APT01-039\\Documents\\IncidenciasTecnologicas\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "c:\\Users\\ADMIN\\Documents\\IncidenciasTecnologicas\\Persistencia\\Persistencia.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ADMIN\\Documents\\IncidenciasTecnologicas\\Persistencia\\obj\\",
+      "projectPath": "c:\\Users\\APT01-039\\Documents\\IncidenciasTecnologicas\\Persistencia\\Persistencia.csproj",
+      "packagesPath": "C:\\Users\\APT01-039\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\APT01-039\\Documents\\IncidenciasTecnologicas\\Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\APT01-039\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -5240,8 +5240,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\ADMIN\\Documents\\IncidenciasTecnologicas\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\Documents\\IncidenciasTecnologicas\\Dominio\\Dominio.csproj"
+            "c:\\Users\\APT01-039\\Documents\\IncidenciasTecnologicas\\Dominio\\Dominio.csproj": {
+              "projectPath": "c:\\Users\\APT01-039\\Documents\\IncidenciasTecnologicas\\Dominio\\Dominio.csproj"
             }
           }
         }

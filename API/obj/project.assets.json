@@ -6015,19 +6015,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
+    "C:\\Users\\APT01-039\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\IncidenciasTecnologicas\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\APT01-039\\Documents\\IncidenciasTecnologicas\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\IncidenciasTecnologicas\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\IncidenciasTecnologicas\\API\\obj\\",
+      "projectPath": "C:\\Users\\APT01-039\\Documents\\IncidenciasTecnologicas\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\APT01-039\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\APT01-039\\Documents\\IncidenciasTecnologicas\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\APT01-039\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -6039,8 +6039,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\ADMIN\\Documents\\IncidenciasTecnologicas\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\Documents\\IncidenciasTecnologicas\\Aplicacion\\Aplicacion.csproj"
+            "c:\\Users\\APT01-039\\Documents\\IncidenciasTecnologicas\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "c:\\Users\\APT01-039\\Documents\\IncidenciasTecnologicas\\Aplicacion\\Aplicacion.csproj"
             }
           }
         }

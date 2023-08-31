@@ -1,3 +1,4 @@
+using System.Reflection;
 using Dominio.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,6 +20,10 @@ namespace Persistencia
         public DbSet<TrainerSalon> Trainers { get; set; }
         public DbSet<Matricula> Matriculas { get; set; }
 
-        
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        }
     }
 }
