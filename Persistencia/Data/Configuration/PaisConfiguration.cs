@@ -9,6 +9,8 @@ namespace Persistencia.Data.Configuration;
         public void Configure(EntityTypeBuilder<Pais> builder)
         {
             builder.ToTable("Pais");
+            
+            builder.HasKey(p => p.Id);
 
             builder.Property(p => p.Id)
             .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn)

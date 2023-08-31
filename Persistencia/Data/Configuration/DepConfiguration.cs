@@ -10,6 +10,8 @@ namespace Persistencia.Data.Configuration;
         {
             builder.ToTable("Departamento");
 
+            builder.HasKey(p => p.Id);
+
             builder.Property(d => d.Id)
             .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn)
             .HasMaxLength(3);

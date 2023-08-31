@@ -8,10 +8,11 @@ namespace Dominio.Entities;
         public string Direccion { get; set; }
         public int IdGeneroFK { get; set; } 
         public Genero Genero { get; set; }
-        public int IdCuidadFK { get; set; }
+        public int IdCiudadFK { get; set; }
         public Ciudad Ciudad { get; set; }
         public int IdTipoPersonaFK { get; set; }
         public TipoPersona TipoPersona { get; set; }
         public ICollection<Matricula> Matriculas{ get; set; }
         public ICollection<TrainerSalon> TrainerSalones { get; set; }
+        public ICollection<Salon> Salones { get; set; } 
     }
