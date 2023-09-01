@@ -5,7 +5,7 @@ namespace Dominio.Interfaces;
     {
         IPais Paises { get; }
 
-        IDepartamento Departamentos{ get; }
+        IDepartamento Departamentos { get; }
 
         Task<int> SaveAsync();
     }
