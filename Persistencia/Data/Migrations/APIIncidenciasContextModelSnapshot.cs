@@ -122,8 +122,8 @@ namespace Persistencia.Data.Migrations
 
                     b.Property<string>("NombrePais")
                         .IsRequired()
-                        .HasMaxLength(3)
-                        .HasColumnType("varchar(3)");
+                        .HasMaxLength(50)
+                        .HasColumnType("varchar(50)");
 
                     b.HasKey("Id");
 

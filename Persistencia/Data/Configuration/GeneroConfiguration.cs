@@ -7,7 +7,7 @@ public class GeneroConfiguration : IEntityTypeConfiguration<Genero>
 {
     public void Configure(EntityTypeBuilder<Genero> builder)
     {
-        builder.ToTable("genero");
+        builder.ToTable("Genero");
 
         builder.HasKey(g => g.Id);
 

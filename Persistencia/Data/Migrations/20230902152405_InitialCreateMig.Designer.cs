@@ -12,7 +12,7 @@ using Persistencia;
 namespace Persistencia.Data.Migrations
 {
     [DbContext(typeof(APIIncidenciasContext))]
-    [Migration("20230831193246_InitialCreateMig")]
+    [Migration("20230902152405_InitialCreateMig")]
     partial class InitialCreateMig
     {
         /// <inheritdoc />
@@ -125,8 +125,8 @@ namespace Persistencia.Data.Migrations
 
                     b.Property<string>("NombrePais")
                         .IsRequired()
-                        .HasMaxLength(3)
-                        .HasColumnType("varchar(3)");
+                        .HasMaxLength(50)
+                        .HasColumnType("varchar(50)");
 
                     b.HasKey("Id");
 
