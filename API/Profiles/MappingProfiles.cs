@@ -9,5 +9,8 @@ namespace API.Profiles;
         public MappingProfiles()
         {
             CreateMap<Pais, PaisDto>().ReverseMap();
+            CreateMap<Departamento, DepartamentoDto>().ReverseMap();
+
+            CreateMap<Pais,PaisxDepaDto>().ReverseMap();
         }
     }
